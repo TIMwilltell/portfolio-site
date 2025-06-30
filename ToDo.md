@@ -1,0 +1,34 @@
+Here’s a Hugo-powered checklist to get your Senior PM portfolio live—tick each box as you go!
+
+- [x] **Install Hugo**
+- [x] **Initialize your site**
+- [x] **Choose or build a theme**
+- [ ] **Configure `config.yml`**
+- [ ] **Define archetypes**
+- [ ] **Create core content**
+      - Home: `content/_index.md`
+      - About: `content/about.md`
+      - Projects list: `content/projects/_index.md`
+- [ ] **Build layouts & partials**
+      - `layouts/_default/baseof.html` (HTML + partials)
+      - `layouts/_default/single.html` for pages
+      - `layouts/projects/list.html` & `single.html`
+- [ ] **Add styling**
+      - Drop in CSS framework or custom SCSS in `assets/`
+      - Use Hugo Pipes to compile/minify in your templates
+- [ ] **Implement SEO & metadata**
+      - Open Graph tags in `head.html` partial
+      - Add `<meta name="description" content="{{ .Site.Params.description }}">`
+- [ ] **Responsive & accessibility checks**
+      - Test on mobile/emulator
+      - Run aXe or Lighthouse audit
+- [ ] **Test locally**
+- [ ] **Optimize & build**
+      - Enable minification in `config.yml`:
+      - Run: `hugo`
+- [ ] **Deploy**
+      - Connect your repo or push `public/` according to host docs
+- [ ] **Set up CI/CD**
+- [ ] **Review & iterate**
+      - Check load times, broken links, mobile layout
+      - Update content, add new projects, adjust SEO
