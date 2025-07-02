@@ -1,8 +1,68 @@
-baseURL: https://example.org/
+baseURL: https://thedailyclark.com/
 languageCode: en-us
-title: My New Hugo Site
+title: Timothy Clark
+theme: typo
+
+# Google analytics code
+# googleAnalytics: G-xxxxxxxxx
+
+taxonomies:
+  tag: tags
+
+params:
+  description: "A Professional Portfolio"
+  theme: auto
+  colorPalette: default
+  hideHeader: false
+
+  homeIntroTitle: "Hi there!"
+  homeIntroContent: |
+    I'm a Senior Product Manager with 7+ years scaling data-driven products in healthcare and EdTech. Expert at leading zero-to-one launches and optimizing mature platforms, translating complex technical requirements into actionable roadmaps, and driving measurable impact via API-first architectures, AI/ML integration, and process automation.
+    I am passionate about product management, software engineering, and AI.
+  
+  # Avatar/headshot image for homepage
+  avatar: "/images/headshot.jpg"
+
+  homeCollectionTitle: "Posts"
+  homeCollection: posts
+
+  paginationSize: 100
+  listSummaries: true
+  listDateFormat: "2 Jan 2006"
+
+  breadcrumbs:
+    enabled: true
+    showCurrentPage: true
+    home: "Home"
+
+  social:
+    - name: linkedin
+      url: "www.linkedin.com/in/timothy-clark-2a376a113"
+    - name: github
+      url: "https://github.com/TIMwilltell"
+
+  menu:
+    - name: home
+      url: "/"
+    - name: posts
+      url: "/posts"
+    - name: about
+      url: "/about"
+
+  giscus:
+    enable: false
+    repo: "user/repo"
+    repoid: "repoId"
+    category: "General"
+    categoryid: "categoryId"
+    mapping: "pathname"
+    theme: "preferred_color_scheme"
+
+markup:
+  highlight:
+    style: algol
 
 module:
   imports:
-  - path: "github.com/tomfran/typo"
+    - path: "github.com/tomfran/typo"
 
