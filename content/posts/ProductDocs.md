@@ -14,8 +14,6 @@ showTags: false
 hideBackToTop: false
 ---
 
-# Nobody Will Ever Read the Manual
-
 We’ve all wasted hours on 50-page specs that nobody opens. Here are some principles to help you write documentation that matters.
 
 ## Why Agile Documentation Matters
